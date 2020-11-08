@@ -15,7 +15,7 @@ export const BottomTabNavigator = () => {
                 name="Home"
                 component={HomeStackNavigator}
                 options={{
-                    tabBarLabel: '홈',
+                    tabBarLabel: 'Home',
                     tabBarIcon: () => <AntDesign name="home" size={20} color={AppColors.primary} />,
                 }}
             />
@@ -23,7 +23,7 @@ export const BottomTabNavigator = () => {
                 name="Search"
                 component={SearchStackNaivator}
                 options={{
-                    tabBarLabel: '검색',
+                    tabBarLabel: 'Search',
                     tabBarIcon: () => <AntDesign name="search1" size={20} color={AppColors.primary} />,
                 }}
             />
@@ -31,7 +31,7 @@ export const BottomTabNavigator = () => {
                 name="MyPage"
                 component={MyPageScreen}
                 options={{
-                    tabBarLabel: '마이페이지',
+                    tabBarLabel: 'MyPage',
                     tabBarIcon: () => <AntDesign name="user" size={20} color={AppColors.primary} />,
                 }}
             />
